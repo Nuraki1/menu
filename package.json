@@ -1,11 +1,14 @@
 {
+  "homepage": "https://Nuraki1.github.io/menu",
   "name": "menu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "npx vite",
+    "predeploy": "npm run build",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

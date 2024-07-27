@@ -1,10 +1,10 @@
 import React from 'react';
-import deliveryImage from '../images/AmrognLogo.png'; // Adjust the path to your image
+import deliveryImage from '../images/AmrognLogo2.png'; // Adjust the path to your image
 import { FaUserFriends } from 'react-icons/fa'; // Import icon for enrollment count
 
 const Front = () => {
   return (
-    <div className="bg-white min-h-screen p-8">
+    <div className="bg-customCream min-h-screen p-8">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-8 md:mb-0 md:w-1/2">
           <h1 className="text-4xl font-bold mb-4">We Provide <span className="text-customRed">Super Fast</span> Delivery Service</h1>
@@ -28,9 +28,9 @@ const Front = () => {
       </div>
       <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
         <ServiceCard title="Pick & Drop" description="Booking" />
-        <ServiceCard title="Cash On" description="Delivery" />
+        <ServiceCard title="Available on beU" description="Delivery" />
         <ServiceCard title="Delivery Hub" description="Booking" />
-        <ServiceCard title="Corporate" description="Booking" />
+        <ServiceCard title="Digital Service" description="The technologies that we use" />
       </div>
     </div>
   );

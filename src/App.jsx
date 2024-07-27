@@ -34,17 +34,18 @@ const App = () => {
     <div>
 
 
-      <div>
+      <div >
         <Front />
+      </div>
+      
+      <div>
+        <Categories categories={categoryData} />
       </div>
 
       <div>
         <PopularMenu />
       </div>
 
-      <div className="bg-black">
-        <Categories categories={categoryData} />
-      </div>
 
       <Example/>
     </div>

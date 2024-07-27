@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa'; // Import the shopping cart icon
 
-const FoodCard = ({ image, name, price, rating, sales }) => {
+const FoodCard = ({ image, name, price,size, rating, sales }) => {
   return (
     <div className="bg-white mb-10 text-black rounded-lg p-6 shadow-lg w-60 relative overflow-visible">
       <div className="flex justify-center mb-8">
@@ -14,6 +14,7 @@ const FoodCard = ({ image, name, price, rating, sales }) => {
       <h2 className="text-xl font-semibold text-center mt-10">{name}</h2>
       <p className="text-center text-gray-400">Starting From</p>
       <p className="text-center text-xl font-bold">{price} br</p>
+      <p className="text-center text-gray-400">{size}pcs</p>
       <div className="flex justify-end mt-4">
         <button className="bg-customRed text-white px-4 py-2 rounded-md hover:bg-red-600 flex items-center justify-center">
           <FaShoppingCart />

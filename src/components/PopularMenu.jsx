@@ -31,65 +31,65 @@ const PopularMenu = () => {
     <FoodCard
       image={ChickenBurger}
       name="Chicken Burger"
-      price={10.0}
+      price={390}
       rating={4.5}
-      sales={1360}
+      size= "chicken, bread , fries, sauce"
     />
     <FoodCard
       image={roastedChicken}
       name="Roasted Chicken"
-      price={25.0}
+      price={1250}
       rating={4.1}
-      sales={1100}
+      size= "Full "
     />
     <FoodCard
       image={Shawarma}
       name="Chicken Shawarma"
-      price={15.0}
+      price={285}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
     <FoodCard
       image={FriedChicken}
       name="Fried Chicken"
-      price={15.0}
+      price={550}
       rating={4.1}
-      sales={1100}
+      size={4 }
     />
     <FoodCard
       image={ChickenKabsa}
       name="Chicken Kabsa"
-      price={15.0}
+      price={470}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
     <FoodCard
       image={ChickenWing}
       name="Chicken Wings"
-      price={15.0}
+      price={440}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
     <FoodCard
       image={ChickenMofo}
       name="Chicken Mofo"
-      price={15.0}
+      price={1150}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
     <FoodCard
       image={ShawarmaPlate}
       name="Shawarma Plate"
-      price={15.0}
+      price={560}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
     <FoodCard
       image={GilledChicken}
       name="Gilled Chicken"
-      price={15.0}
+      price={1100}
       rating={4.1}
-      sales={1100}
+      size={1100}
     />
   </div>
   );
