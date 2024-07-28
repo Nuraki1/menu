@@ -252,7 +252,7 @@ const LINKS = [
   // },
   {
     title: "Amroኝ 4kilo/4ኪሎ",
-    href: "https://www.google.com/maps/place/Ambassador+Mall+%7C+4+KILO+%7C+%E1%8A%A0%E1%88%9D%E1%89%A3%E1%88%B3%E1%8B%B0%E1%88%AD+%E1%88%9E%E1%88%8D+%7C+4+%E1%8A%AA%E1%88%8E/@9.0319229,38.7631891,15z/data=!4m6!3m5!1s0x164b859797149b25:0x2bea4652ce50614!8m2!3d9.0319229!4d38.7631891!16s%2Fg%2F11kqs8yqv1?entry=ttu",
+    href: "https://www.google.com/maps/dir/8.9074185,38.7604635/2QJ7%2BQ78+Ambassador+Mall+%7C+4+KILO+%7C+%E1%8A%A0%E1%88%9D%E1%89%A3%E1%88%B3%E1%8B%B0%E1%88%AD+%E1%88%9E%E1%88%8D+%7C+4+%E1%8A%AA%E1%88%8E,+Addis+Ababa/@8.9699816,38.6689037,12z/data=!3m1!4b1!4m18!1m7!3m6!1s0x164b859797149b25:0x2bea4652ce50614!2zQW1iYXNzYWRvciBNYWxsIHwgNCBLSUxPIHwg4Yqg4Yid4Ymj4Yiz4Yuw4YitIOGInuGIjSB8IDQg4Yqq4YiO!8m2!3d9.0319229!4d38.7631891!16s%2Fg%2F11kqs8yqv1!4m9!1m1!4e1!1m5!1m1!1s0x164b859797149b25:0x2bea4652ce50614!2m2!1d38.7631891!2d9.0319229!3e0?entry=ttu",
     image: branch4Kilo,
   },
   {

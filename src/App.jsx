@@ -31,24 +31,24 @@ const categoryData = [
 const App = () => {
   return (
     <>
-    <div>
+        <div>
 
 
-      <div >
-        <Front />
-      </div>
-      
-      <div>
-        <Categories categories={categoryData} />
-      </div>
+          <div >
+            <Front />
+          </div>
+          
+          <div className="sticky-categories">
+              <Categories categories={categoryData} />
+            </div>
 
-      <div>
-        <PopularMenu />
-      </div>
+          <div>
+            <PopularMenu />
+          </div>
 
 
-      <Example/>
-    </div>
+          <Example/>
+        </div>
 
 
     </>
